@@ -1,0 +1,12 @@
+.content1 {
+    height: auto; 
+    min-height: 100%; 
+}
+.monitor{
+    height: auto;
+}
+@media (min-height: 925px) and (min-width: 820px) {
+    .content1 {
+        height: 94vh; 
+    }
+}

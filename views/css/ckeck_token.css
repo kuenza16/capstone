@@ -1,0 +1,111 @@
+.topic{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 0.75)
+}
+.star{
+    font-size: 14px;
+    color: #DC3545; 
+}
+.token_check_instruct{
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.75)
+}
+.content1{
+    height: 90vh;
+}
+.monitor{
+    height: 230px;
+}
+.token_number_container{
+    margin-top: 50px;
+}
+.submit_button{
+    width: 100%;
+    height: 42px;
+    background-color: #85C9EC;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.submit_container{
+    margin-top: 30px;
+}
+input::placeholder {
+    color: rgba(51, 51, 51, 0.60); 
+    font-size: 12px;
+}
+input{
+    margin-top: 10px;
+    width: 96.5%;
+    height: 42px;
+    border:1px solid #CED4DA;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input:focus {
+    outline: none;
+}
+@media (max-width: 430px) {
+    input{
+        width: 91%;
+    }
+   .monitor{
+    height: 250px;
+    } 
+
+}
+@media (max-width: 360px) {
+    input{
+        width: 91%;
+    }
+   .monitor{
+    height: 250px;
+    } 
+
+}
+@media (max-width: 414px) {
+    input{
+        width: 91%;
+    }
+   .monitor{
+    height: 250px;
+    } 
+
+}
+@media (max-width: 320px) {
+    input{
+        width: 91%;
+    }
+   .monitor{
+    height: 260px;
+    } 
+
+}
+@media (max-width: 240px) {
+   .monitor{
+    height: 300px;
+    } 
+
+}
+@media (max-width: 879px) {
+    .monitor{
+        width: 90%;
+    }
+   .content{
+    width: 100%;
+   } 
+
+}
+@media (max-width:600px){
+    .content{
+        background-color: #00A7E3;
+      }
+}
+@media (min-height: 1138px) {
+  .content{
+    background-color: #00A7E3;
+    width: 100%;
+  }
+}

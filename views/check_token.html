@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Of Bhutan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/token_monitor.css">
+    <link rel="stylesheet" href="css/ckeck_token.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+</head>
+<body>
+    <div class="heading">
+        <a href="/">
+            <img src="image/Home.svg" alt="Home" class="home-icon">
+        </a>
+        <img src="image/BoB-Logo.svg" alt="Logo" class="logo-icon">
+    </div>
+    <div class="main_container">
+        <div class="content">
+            <div class="content1">
+                    <div class="monitor">
+                        <div class="token_check_instruct">
+                            Enter your bank account number to easily track your token appointment.
+                        </div>
+                        <form action="">
+                            <div class="token_number_container">
+                                <span class="topic">Your Account Number </span> <span class="star">*</span><br>
+                                <input type="number" id="accountNumber" maxlength="9" placeholder="Enter Your Bank Account Number to Know your Token Number">
+                            </div>
+                            <div class="submit_container">
+                                <button class="submit_button">Submit</button>
+                            </div>
+                        </form>
+                        <br>
+                        <div class="result"></div>
+                        
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/check_token.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
